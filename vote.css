@@ -1,0 +1,12 @@
+.grid {
+	background-color: white;
+	display: grid;
+	grid-template: 20% 20% 20% 20% 20% / 10% 10% 10% 10% 10%;
+}
+.menu-item {
+	grid-column: span 1;
+	background-color: #0101D5;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}

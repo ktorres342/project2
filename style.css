@@ -1,0 +1,68 @@
+HTML {
+	BACKGROUND-COLOR: #75BEFE;
+}
+.grid {
+	background-color: #75BEFE;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr; 
+	grid-template-rows: 1fr 1fr;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.menu-item {
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	column-count: 5;
+}
+h1 {
+	grid-column: 2 / 4;
+	font-size: 70px;
+	background-color: #75BEFE; 
+	text-align: center;
+}
+.columnspan {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+nav {
+	border: 10px solid #FE2121;
+	background-color: #D9FE21;
+	text-align: center;
+	grid-column: span 4;
+	height: 10%;
+}
+.left {
+	grid-column: 1 / 2;
+}
+.right {
+	grid-column: 3 / 4;
+}
+p {
+	font-family: 'Ramaraja', serif;
+	font-size: 20px;
+	text-align: center;
+}
+.middle {
+	grid-column: 2 / 3;
+}
+.up {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+.mons {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+.inc {
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+}
+h2 {
+	text-align: center;
+	font-family: 'Ramaraja', serif;
+}
+.text {
+	grid-column: 2 / 4;
+	text-align: center;
+}
