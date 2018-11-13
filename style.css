@@ -66,3 +66,7 @@ h2 {
 	grid-column: 2 / 4;
 	text-align: center;
 }
+.storytext {
+	font-size: 40px;
+	grid-column: 1 / 4;
+}
